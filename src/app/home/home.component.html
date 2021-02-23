@@ -1,30 +1,33 @@
-<div class="container-fluid" class="header-box bac">
+<div class="container-fluid" class="header-box">
   <div class="row">
-    <div class="col-sm">
-      <div style="max-width: 50%; float: right;">
-        <h1 style="">Lorem ipsum dolor sit amet consectetur</h1>
-        <h4 style="">
+    <div class="col-12 col-sm-6 col-md-6 text-div">
+      <div class="text-box">
+        <h1>Lorem ipsum dolor sit amet consectetur</h1>
+        <h4>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud.
         </h4>
-        <ul style="">
+        <ul>
           <li>Duis aute irure dolor in reprehenderit</li>
           <li>In voluptate velit esse cillum dolore eu fugiat nulla</li>
           <li>Excepteur sint occaecat cupidatat non proident</li>
         </ul>
       </div>
     </div>
-    <div class="col-sm" style="display: flex; justify-content: center">
-      <div class="card" style="min-width: 45%">
+    <div
+      class="col-12 col-sm-6 col-md-6 bac"
+      style="display: flex; justify-content: center"
+    >
+      <div class="card register-card">
         <h1 class="card-title">Faça seu cadastro!</h1>
-        <mat-form-field class="register-card">
-          <input matInput placeholder="Nome" />
+        <mat-form-field class="field-card">
+          <input matInput placeholder="Nome" #firstname />
         </mat-form-field>
-        <mat-form-field class="register-card">
+        <mat-form-field class="field-card">
           <input matInput placeholder="E-mail" />
         </mat-form-field>
-        <mat-form-field class="register-card">
+        <mat-form-field class="field-card">
           <input matInput placeholder="Celular" />
         </mat-form-field>
 
@@ -32,6 +35,297 @@
           Cadastrar
         </button>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12">
+      <div class="text-box">
+        <h1 style="font-size: 26px; text-align: center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </h1>
+      </div>
+    </div>
+    <div class=".d-flex col-12 col-sm-6 col-md-6">
+      <div class="row" style="justify-content: flex-end">
+        <div class="size-x circle">1</div>
+        <h1 style="font-size: 20px; padding: 20px">
+          Lorem ipsum dolor sit amet consectetur
+        </h1>
+      </div>
+      <p style="max-width: 45%; float: right">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation.
+      </p>
+    </div>
+    <div class=".d-flex col-12 col-sm-6 col-md-6">
+      <div class="row">
+        <div class="size-x circle">2</div>
+        <h1 style="font-size: 20px; text-align: left; padding: 20px">
+          Lorem ipsum dolor sit amet consectetur
+        </h1>
+      </div>
+      <p style="max-width: 55%; padding-left: 90px">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation.
+      </p>
+    </div>
+    <div class=".d-flex col-12 col-sm-6 col-md-6">
+      <div class="row" style="justify-content: flex-end">
+        <div class="size-x circle">3</div>
+        <h1 style="font-size: 20px; padding: 20px">
+          Lorem ipsum dolor sit amet consectetur
+        </h1>
+      </div>
+      <p style="max-width: 45%; float: right">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation.
+      </p>
+    </div>
+    <div class=".d-flex col-12 col-sm-6 col-md-6">
+      <div class="row">
+        <div class="size-x circle">4</div>
+        <h1 style="font-size: 20px; text-align: left; padding: 20px">
+          Lorem ipsum dolor sit amet consectetur
+        </h1>
+      </div>
+      <p style="max-width: 55%; padding-left: 90px">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation.
+      </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-12">
+      <div class="button-float">
+        <button
+          type="button"
+          class="btn btn-danger"
+          style="margin: 5%"
+          (click)="backToRegister()"
+        >
+          Quero me cadastrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" class="list-box">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12">
+      <div class="text-box">
+        <h1 style="font-size: 26px; text-align: center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
+          tempor incididunt ut labore et dolore
+        </h1>
+      </div>
+    </div>
+
+    <div class=".d-flex col-12 col-sm-8 col-md-8">
+      <div>
+        <div class="row" style="padding-left: 20%">
+          <img
+            src="../../assets/analise-de-documentacao@2x.png"
+            class="size-x circle"
+          />
+          <h1 style="font-size: 20px; margin: 0">
+            Lorem ipsum dolor sit amet consectetur
+          </h1>
+        </div>
+        <p style="padding-left: 25.5%">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </p>
+      </div>
+      <div>
+        <div class="row" style="padding-left: 20%">
+          <img src="../../assets/apoio-juridico@2x.png" class="size-x circle" />
+          <h1 style="font-size: 20px">
+            Lorem ipsum dolor sit amet consectetur
+          </h1>
+        </div>
+        <p style="padding-left: 25.5%">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </p>
+      </div>
+      <div>
+        <div class="row" style="padding-left: 20%">
+          <img
+            src="../../assets/horario-de-atendimento-estendido@2x.png"
+            class="size-x circle"
+          />
+          <h1 style="font-size: 20px">
+            Lorem ipsum dolor sit amet consectetur
+          </h1>
+        </div>
+        <p style="padding-left: 25.5%">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </p>
+      </div>
+      <div>
+        <div class="row" style="padding-left: 20%">
+          <img
+            src="../../assets/vende-sem-sair-de-casa@2x.png"
+            class="size-x circle"
+          />
+          <h1 style="font-size: 20px">
+            Lorem ipsum dolor sit amet consectetur
+          </h1>
+        </div>
+        <p style="padding-left: 25.5%">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </p>
+      </div>
+      <div>
+        <div class="row" style="padding-left: 20%">
+          <img
+            src="../../assets/facilidade-no-financiamento@2x.png"
+            class="size-x circle"
+          />
+          <h1 style="font-size: 20px">
+            Lorem ipsum dolor sit amet consectetur
+          </h1>
+        </div>
+        <p style="padding-left: 25.5%">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </p>
+      </div>
+    </div>
+
+    <div class=".d-flex col-6 col-sm-4 col-md-4">
+      <img src="../../assets/consultoria-imobiliaria-completa@2x.png" class="imagem-consultoria"/>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-12">
+      <div class="button-float">
+        <button
+          type="button"
+          class="btn btn-danger"
+          style="margin: 5%"
+          (click)="backToRegister()"
+        >
+          Quero me cadastrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12">
+      <div class="text-box">
+        <h1 style="font-size: 26px; text-align: center">
+          Perguntas Frequentes
+        </h1>
+      </div>
+    </div>
+
+    <div class=".d-flex col-12 col-sm-12 col-md-12" style="margin-bottom: 50px">
+      <mat-accordion style="margin: 10px">
+        <mat-expansion-panel
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt?
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <ul>
+            <p>
+              1. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              2. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>
+              3. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
+            </p>
+          </ul>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion style="margin: 10px">
+        <mat-expansion-panel
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt?
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <ul>
+            <p>
+              1. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              2. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>
+              3. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
+            </p>
+          </ul>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion style="margin: 10px; margin-bottom: 40px">
+        <mat-expansion-panel
+          (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false"
+        >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt?
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <ul>
+            <p>
+              1. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              2. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>
+              3. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
+            </p>
+          </ul>
+        </mat-expansion-panel>
+      </mat-accordion>
     </div>
   </div>
 </div>

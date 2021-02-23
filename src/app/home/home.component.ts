@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatInput } from '@angular/material/input';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  @ViewChild('firstname') firstname:any;
+  panelOpenState = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  backToRegister(){
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
 }

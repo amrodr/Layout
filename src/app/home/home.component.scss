@@ -2,7 +2,13 @@
   background-color: #ebf6fa;
   padding: 5%;
 }
-.register-card {
+
+.list-box{
+  background-color: #F7F7F7;
+  padding: 5%;
+}
+
+.field-card {
   width: 90%;
   padding: 2%;
   padding-left: 10%;
@@ -18,6 +24,81 @@
 .bac {
   background: url("../../assets/cadastre-seu-imovel-e-anuncie-ja@2x.png")no-repeat;
   background-color: #ebf6fa;
-  background-size: 38rem;
-  background-position: 49rem;
+  padding-left: 110px;
+  background-position: center center;
+  background-size: contain;
 }
+
+.register-card{
+      height: 393px;
+      width: 370px;
+      margin-top: 100px;
+      background-size: contain;
+}
+
+.text-div{
+  position: relative;
+}
+
+.text-box {
+  max-width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.size-x {
+  height: 64px;
+  width:64px;
+}
+
+.circle {
+  background: #ebf6fa;
+  color: #2988B5;
+  border-radius: 50%;
+  font-size: 2em;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-float{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-consultoria{
+  max-inline-size: -webkit-fill-available;
+  max-width: 70%;
+}
+
+
+h1 {
+  color: #2D5676;
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+ul {
+  font-size: 18px;
+  list-style: none
+}
+
+ul li:before {
+  content: '\2022';
+  margin: 0 2px;
+  color: #e74c3c;
+  font-size: 25px;
+ }
+
